@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Just adding these so I wont have to remove a lot of code from NumberPicker.java. -->
+    <item name="sp__increment" type="id" />
+    <item name="sp__decrement" type="id" />
+
+</resources>

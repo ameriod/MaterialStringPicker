@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0000FF</item>
+        <item name="colorPrimaryDark">#FF00FF</item>
+        <item name="stringPickerStyle">@style/SPWidget.StringPicker.Material</item>
+    </style>
+
+</resources>
