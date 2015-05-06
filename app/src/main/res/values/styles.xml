@@ -6,6 +6,7 @@
         <item name="colorPrimary">#0000FF</item>
         <item name="colorPrimaryDark">#FF00FF</item>
         <item name="stringPickerStyle">@style/SPWidget.StringPicker.Material</item>
+        <item name="colorAccent">#00FF00</item>
     </style>
 
 </resources>

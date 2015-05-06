@@ -1,7 +1,7 @@
 <resources>
 
     <!-- Copy one of these attributes to your own theme (choose either dark or light).
-        <item name="numberPickerStyle">@style/NPWidget.Holo.NumberPicker</item>
+        <item name="stringPickerStyle">@style/SPWidget.StringPicker.Material</item>
     -->
 
     <!-- Don't touch this -->
@@ -42,12 +42,12 @@
 
     <style name="SPWidget.StringPicker.Material" parent="SPWidget.StringPicker">
         <item name="solidColor">@android:color/transparent</item>
-        <item name="selectionDivider">?attr/colorPrimary</item>
+        <item name="selectionDivider">?attr/colorAccent</item>
         <item name="selectionDividerHeight">2dip</item>
         <item name="internalLayout">@layout/string_picker_with_selector_wheel</item>
         <item name="internalMinWidth">64dip</item>
         <item name="internalMaxHeight">180dip</item>
-        <item name="virtualButtonPressedDrawable">?attr/selectableItemBackground</item>
+        <item name="virtualButtonPressedDrawable">@null</item>
     </style>
 
 </resources>
